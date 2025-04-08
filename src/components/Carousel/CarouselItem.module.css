@@ -1,0 +1,23 @@
+.carouselItem {
+  width: 60vh;
+  height: 60vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  transform-style: preserve-3d;
+}
+
+.rotateImage {
+  transform: rotate(-90deg);
+}
