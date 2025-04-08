@@ -36,12 +36,6 @@ const PerspectiveScroll: React.FC = () => {
     offset: ['start start', 'end end'],
   });
 
-  const textOpacity = useTransform(
-    scrollYProgress, 
-    [0.2, 0.4, 0.55], 
-    [0, 1, 0]
-  );
-
   const mainTitleOpacity = useTransform(
     scrollYProgress,
     [0, 0.72, 0.85],
@@ -66,12 +60,6 @@ const PerspectiveScroll: React.FC = () => {
     ['100vh', '50vh', '0vh']
   );
   
-  const profileSectionOpacity = useTransform(
-    scrollYProgress, 
-    [0.8, 0.9, 1], 
-    [0, 0.5, 1]
-  );
-
   const presentationSectionY = useTransform(
     scrollYProgress,
     [0.85, 0.95, 1],
@@ -108,7 +96,7 @@ const PerspectiveScroll: React.FC = () => {
               style={{ opacity: mainTitleOpacity }}
               transition={{ duration: 0.5 }}
             >
-              <p className={classes.mainTitle}>Pixels to Production</p>
+              <p className={classes.mainTitle}>Inside My Workflow</p>
             </motion.div>
             
             <motion.div 
