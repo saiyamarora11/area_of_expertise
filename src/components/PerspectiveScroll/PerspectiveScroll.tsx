@@ -108,7 +108,7 @@ const PerspectiveScroll: React.FC = () => {
               style={{ opacity: mainTitleOpacity }}
               transition={{ duration: 0.5 }}
             >
-              <p className={classes.mainTitle}>Saiyam arora (Frontend Developer)</p>
+              <p className={classes.mainTitle}>Pixels to Production</p>
             </motion.div>
             
             <motion.div 
