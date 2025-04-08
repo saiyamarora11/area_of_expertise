@@ -142,7 +142,6 @@ const PerspectiveScroll: React.FC = () => {
           style={{ 
             y: presentationSectionY,
             opacity: presentationSectionOpacity,
-            pointerEvents: scrollYProgress.get() > 0.95 ? 'auto' : 'none'
           }}
           transition={{
             y: { 
