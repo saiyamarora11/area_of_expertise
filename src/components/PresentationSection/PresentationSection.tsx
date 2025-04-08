@@ -10,7 +10,7 @@ const PresentationSection: React.FC = () => {
         <div className={styles.presentationWrapper}>
           <iframe 
             ref={iframeRef}
-            src="https://docs.google.com/presentation/d/e/2PACX-1vR9JGJIjwOClh-1XxbUYwcsVG_d4ZvyiHeH57d1Xnm1_CPPCqcs9aCwF9GHMhOSijzaZXPsNhX6xBps/pubembed?start=false&loop=false&delayms=3000" 
+            src="https://docs.google.com/presentation/d/e/2PACX-1vQEnWoT6Ai3ZHr0tjEUGJL5qJAjf9-2BX4FON8MNFGFn9SygEc1djVFrWQ-9CuWVd8WcvjK1BXF7KFc/embed?start=false&loop=false&delayms=3000" 
             frameBorder="0" 
             allowFullScreen
             title="About Me Presentation"
